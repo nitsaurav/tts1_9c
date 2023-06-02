@@ -1,9 +1,9 @@
-
-body {
+body {
     margin: 0;
     background: #EEE;
     user-select: none;
     font-family: sans-serif;
+    overflow-x: hidden;
   }
   
   
@@ -36,11 +36,19 @@
   
   input[type=radio]:checked {
     opacity: 1;
+  }  
+  .menu_link{
+    color: #fff!important;
+    font-size: 18px;
+    font-weight: bold;
   }
-  
-  
-  
-  
+  .navbar-light .navbar-nav .active>.nav-link{
+    color: #e70606!important;
+  }
+  .menu_slink{
+    font-size: 18px;
+    font-weight: bold;
+  }
   #slider label,
   #slider label img {
     position: absolute;
@@ -211,7 +219,7 @@
   background-color: #68affb;
 }
 .plac_sec{
-    padding-top: 30px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 .numeric_sec{
